@@ -5,10 +5,10 @@ import numpy as np
 from scipy.optimize import minimize
 
 
-aapl = pd.read_csv(r'C:\Users\Admin\Desktop\Programming\Python Finance\Python-for-Finance-Repo-master\09-Python-Finance-Fundamentals\AAPL_CLOSE',index_col='Date',parse_dates=True)
-cisco = pd.read_csv(r'C:\Users\Admin\Desktop\Programming\Python Finance\Python-for-Finance-Repo-master\09-Python-Finance-Fundamentals\CISCO_CLOSE',index_col='Date',parse_dates=True)
-ibm = pd.read_csv(r'C:\Users\Admin\Desktop\Programming\Python Finance\Python-for-Finance-Repo-master\09-Python-Finance-Fundamentals\IBM_CLOSE',index_col='Date',parse_dates=True)
-amzn = pd.read_csv(r'C:\Users\Admin\Desktop\Programming\Python Finance\Python-for-Finance-Repo-master\09-Python-Finance-Fundamentals\AMZN_CLOSE',index_col='Date',parse_dates=True)
+aapl = pd.read_csv(r'',index_col='Date',parse_dates=True)
+cisco = pd.read_csv(r'',index_col='Date',parse_dates=True)
+ibm = pd.read_csv(r'',index_col='Date',parse_dates=True)
+amzn = pd.read_csv(r'',index_col='Date',parse_dates=True)
 
 
 stocks = pd.concat([aapl,cisco,ibm,amzn],axis=1)
